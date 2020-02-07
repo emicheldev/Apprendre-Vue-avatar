@@ -12,3 +12,21 @@ Vue avatar est un composant d'avatar pour vue.js.
 1. Installer vue.Js
 2. Installer vue-avatar
 ```npm install vue-avatar```
+3. impoter vue-avata 
+```
+<script>
+//impoter vue-avatar
+import Avatar from 'vue-avatar'
+export default {
+  name: 'HelloWorld',
+  data () {
+    return {
+      msg: 'Welcome to Your Vue.js App'
+    }
+  },
+  components: {
+    Avatar
+  },
+}
+</script>
+```

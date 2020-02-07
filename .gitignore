@@ -16,7 +16,6 @@ selenium-debug.log
 *.njsproj
 *.sln
 
-.DS_Store
 Thumbs.db
 db.json
 *.log
